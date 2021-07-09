@@ -7,52 +7,61 @@
 </head>
 <body>
 	<header class="header">
-    <div class="header__wrapper">
-      <a href="#" class="header__logo logo">
-        <img src="img/header/logo.png" width="46px" height="19px" alt="logo" class="logo__img" />
-      </a>
-      <button class="header__switch btn">some switch</button>
-      <nav class="header__navigation navigation">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="#" class="navigation__link"> Обо мне </a>
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link navigation__link--active">
-              Мои проекты
-            </a>
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link"> Отзывы </a>
-          </li>
-        </ul>
-      </nav>
-      <button class="header__btn btn">Связаться со мной</button>
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-iner">
+          <div class="logo">
+            <a class="logo__link" href="#">
+            <img 
+            class="logo__img"
+            src="img/header/logo.png" 
+            width="46" 
+            height="19" 
+            alt="logo" 
+            />
+          </a>
+          </div>
+          <div class="header__top-switch">
+            <button class="switch btn">some switch</button>
+          </div>
+          <div class="header__top-nav nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__link" href="#" > Обо мне </a></li>
+              <li class="nav__item"><a class="nav__link nav__link--active" href="#" >
+                Мои проекты
+              </a></li>
+              <li class="nav__item"><a href="#" class="nav__link"> Отзывы </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="header__content">
+      <div class="container">
+        <div class="header__content-iner">
+          <div class="header__content-info">
+            <h1 class="header__title">Бизнес-Консалтинг</h1>
+            <p class="header__subtitle">Консультирую по вопросам 
+              масштабирования бизнеса</p>
+            <img
+            class="header__img"
+            width="615"
+            height="577"
+            src="img/main/main-photo.jpg"
+            alt="main-photo"
+            />
+          </div>
+        </div>
+      </div>
+      </div>
   </header>
   <main class="main">
-    <div class="main__wrapper">
-      <section class="main__header">
-        <h1 class="main__title title">
-          Бизнес-<span class="main__lead">Консалтинг</span>
-        </h1>
-        <p class="main__subtitle subtitle">
-          Консультирую по вопросам масштабирования бизнеса
-        </p>
-        <img
-          class="main__img img"
-          width="615px"
-          height="577px"
-          src="img/main/main-photo.jpg"
-          alt="main-photo"
-        />
-      </section>
       <section class="main__about">
         <h3 class="main__caption caption">Обо мне</h3>
         <img
           class="main__photo-about"
-          width="287.47px"
-          height="331.55px"
+          width="288"
+          height="332"
           src="img/main/about-photo-small.jpg"
           alt="about-photo-small"
         />
@@ -66,8 +75,8 @@
         </p>
         <img
           class="main__photo-about"
-          width="615px"
-          height="396px"
+          width="615"
+          height="396"
           src="img/main/about-photo-big.jpg"
           alt="about-photo-big"
         />
@@ -140,7 +149,6 @@
         <button class="main__further-btn btn">Дальше</button>
         <img
           class="main__img img"
-          width=""
           src="img/main/about-project-img.png"
           alt="about-project-img"
         />
@@ -202,7 +210,6 @@
         <h4 class="main__subtitle-video">Дядя Ваня</h4>
         <p class="main__text text">Обувщик</p>
       </section>
-    </div>
   </main>
   <footer class="footer">
     <div class="footer__wrapper">
