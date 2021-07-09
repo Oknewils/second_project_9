@@ -9,7 +9,7 @@
 	<header class="header">
     <div class="header__wrapper">
       <a href="#" class="header__logo logo">
-        <img src="img/header/logo.png" alt="logo" class="logo__img" />
+        <img src="img/header/logo.png" width="46px" height="19px" alt="logo" class="logo__img" />
       </a>
       <button class="header__switch btn">some switch</button>
       <nav class="header__navigation navigation">
@@ -32,7 +32,7 @@
   </header>
   <main class="main">
     <div class="main__wrapper">
-      <div class="main__header">
+      <section class="main__header">
         <h1 class="main__title title">
           Бизнес-<span class="main__lead">Консалтинг</span>
         </h1>
@@ -40,15 +40,19 @@
           Консультирую по вопросам масштабирования бизнеса
         </p>
         <img
-          class="main-img img"
+          class="main__img img"
+          width="615px"
+          height="577px"
           src="img/main/main-photo.jpg"
           alt="main-photo"
         />
-      </div>
-      <div class="main__about">
+      </section>
+      <section class="main__about">
         <h3 class="main__caption caption">Обо мне</h3>
         <img
-          class="main__photo__small"
+          class="main__photo-about"
+          width="287.47px"
+          height="331.55px"
           src="img/main/about-photo-small.jpg"
           alt="about-photo-small"
         />
@@ -61,19 +65,21 @@
           Самонаблюдение, конечно, притягивает филосовский гомеостаз.
         </p>
         <img
-          class="main__photo__big"
+          class="main__photo-about"
+          width="615px"
+          height="396px"
           src="img/main/about-photo-big.jpg"
           alt="about-photo-big"
         />
-        <button class="main__watch">Смотреть</button>
-      </div>
-      <div class="main__specializations">
+        <button class="main__watch btn">Смотреть</button>
+      </section>
+      <section class="main__specializations">
         <h3 class="main__caption caption">Основные специализации</h3>
-        <ol class="main__number__list">
-          <li class="main__number__list__item">
-            <a class="main__number__link" href="#">Увеличение продаж</a>
-            <button class="main__btn__number__list"></button>
-            <p class="main__subtitle subtitle">
+        <ol class="main__number-list number-list">
+          <li class="number-list__item">
+            <a class="number-list__link" href="#">Увеличение продаж</a>
+            <button class="number-list__btn-number"></button>
+            <p class="number-list__subtitle subtitle">
               По их почти единодушному мнению, самоактуализация откровенна.
               Толпа понимает объект. Действие точно аннигилирует генезис.
               Самонаблюдение, конечно, притягивает филосовский гомеостаз. По
@@ -82,30 +88,30 @@
               Самонаблюдение, конечно, притягивает филосовский гомеостаз.
             </p>
           </li>
-          <li class="main__number__list__item">
-            <a class="main__number__link" href="#">Повышение узнаваемости</a>
-            <button class="main__btn__number__list"></button>
+          <li class="number-list__item">
+            <a class="number-list__link" href="#">Повышение узнаваемости</a>
+            <button class="number-list__btn-number"></button>
           </li>
-          <li class="main__number__list__item">
-            <a class="main__number__link" href="#">Расширение компании</a>
-            <button class="main__btn__number__list"></button>
+          <li class="number-list__list__item">
+            <a class="number-list__link" href="#">Расширение компании</a>
+            <button class="number-list__btn-number"></button>
           </li>
-          <li class="main__number__list__item">
-            <a class="main__number__link" href="#">Что-то еще</a>
-            <button class="main__btn__number__list"></button>
+          <li class="number-list__item">
+            <a class="number-list__link" href="#">Что-то еще</a>
+            <button class="number-list__btn-number"></button>
           </li>
-          <li class="main__number__list__item">
-            <a class="main__number__link" href="#">И еще что-то</a>
-            <button class="main__btn__number__list"></button>
+          <li class="number-list__item">
+            <a class="number-list__link" href="#">И еще что-то</a>
+            <button class="number-list__btn-number"></button>
           </li>
-          <li class="main__number__list__item">
-            <a class="main__number__link" href="#">И еще одно что-нибудь</a>
-            <button class="main__btn__number__list"></button>
+          <li class="number-list__item">
+            <a class="number-list__link" href="#">И еще одно что-нибудь</a>
+            <button class="number-list__btn-number"></button>
           </li>
         </ol>
-      </div>
-      <div class="main__about__project">
-        <h2 class="main__about__project__title title">Webnauts</h2>
+      </section>
+      <section class="main__about-project">
+        <h2 class="main__title title">Webnauts</h2>
         <h3 class="main__caption caption">О проекте</h3>
         <p class="main__subtitle subtitle">
           По их почти единодушному мнению, самоактуализация откровенна. Толпа
@@ -130,18 +136,19 @@
           </svg>
           webnauts.pro</a
         >
-        <button class="main__back">Назад</button>
-        <button class="main__further">Дальше</button>
+        <button class="main__back-btn btn">Назад</button>
+        <button class="main__further-btn btn">Дальше</button>
         <img
           class="main__img img"
+          width=""
           src="img/main/about-project-img.png"
           alt="about-project-img"
         />
-      </div>
-      <div class="main__reviews">
+      </section>
+      <section class="main__reviews">
         <h3 class="main__caption caption">Отзывы клиентов</h3>
-        <button class="main__watch">Смотреть отзыв</button>
-        <img class="main__img" src="img/main/reviews-video-big.png" alt="#" />
+        <button class="main__watch-btn btn">Смотреть отзыв</button>
+        <img class="main__img img" src="img/main/reviews-video-big.png" alt="#" />
         <svg
           width="27"
           height="32"
@@ -154,10 +161,10 @@
             fill="#83C1FA"
           />
         </svg>
-        <h4 class="main__subtitle__video">Уилл Смит</h4>
-        <p class="main__text">Актер, певец, классный мужик</p>
+        <h4 class="main__subtitle-video">Уилл Смит</h4>
+        <p class="main__text text">Актер, певец, классный мужик</p>
         <img
-          class="main__img"
+          class="main__img img"
           src="img/main/reviews-video-middle.png"
           alt="#"
         />
@@ -173,10 +180,10 @@
             fill="#83C1FA"
           />
         </svg>
-        <h4 class="main__subtitle__video">Марк Аврелий</h4>
-        <p class="main__text">Римский император, философ</p>
+        <h4 class="main__subtitle-video">Марк Аврелий</h4>
+        <p class="main__text text">Римский император, философ</p>
         <img
-          class="main__img"
+          class="main__img img"
           src="img/main/reviews-video-small.png"
           alt="#"
         />
@@ -192,18 +199,18 @@
             fill="#83C1FA"
           />
         </svg>
-        <h4 class="main__subtitle__video">Дядя Ваня</h4>
-        <p class="main__text">Обувщик</p>
-      </div>
+        <h4 class="main__subtitle-video">Дядя Ваня</h4>
+        <p class="main__text text">Обувщик</p>
+      </section>
     </div>
   </main>
   <footer class="footer">
     <div class="footer__wrapper">
-      <div class="footer__right__me">
+      <section class="footer__right-me">
         <h3 class="footer__caption caption">Напишите мне</h3>
         <p class="footer__subtitle subtitle"></p>
-      </div>
-      <div class="footer__social__networks">
+      </section>
+      <section class="footer__social-networks">
         <div class="footer__mail">
           <svg
             width="86"
@@ -224,7 +231,7 @@
               </clipPath>
             </defs>
           </svg>
-          <p class="footer__mail__title">E-mail</p>
+          <p class="footer__mail-title title">E-mail</p>
           <svg
             width="29"
             height="29"
@@ -251,7 +258,7 @@
               fill="#3C3C3C"
             />
           </svg>
-          <p class="footer__facebook__title">Facebook</p>
+          <p class="footer__facebook-title title">Facebook</p>
           <svg
             width="29"
             height="29"
@@ -278,7 +285,7 @@
               fill="#3C3C3C"
             />
           </svg>
-          <p class="footer__telegram__title">Telegram</p>
+          <p class="footer__telegram-title title">Telegram</p>
           <svg
             width="29"
             height="29"
@@ -293,14 +300,14 @@
           </svg>
         </div>
         <div class="footer__copiright">
-          <p class="footer__copiright__text">2020. Все права защищены</p>
+          <p class="footer__copiright-text text">2020. Все права защищены</p>
         </div>
-        <div class="footer__privacy__policy">
-          <p class="footer__privacy__policy__text">
+        <div class="footer__privacy-policy">
+          <p class="footer__text text">
             Политика конфиденциальности
           </p>
         </div>
-      </div>
+      </section>
     </div>
   </footer>
 </body>
