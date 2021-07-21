@@ -1,0 +1,31 @@
+.btn {
+    width: 263px;
+    height: 65px;
+    
+
+    background-color: transparent;
+    border: 1px solid $border-color;
+    box-sizing: border-box;
+    border-radius: 60px;
+
+    &:hover {
+        background-color: $border-color;
+    }
+
+    &__link {
+        font-family: BebasNeueBold;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        
+        
+        text-align: left;
+        
+
+        color: $white;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        
+    }
+}

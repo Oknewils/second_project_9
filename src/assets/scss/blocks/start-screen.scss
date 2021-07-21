@@ -1,0 +1,73 @@
+.start-screen {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+
+    &__title {
+        position: absolute;
+        top: 140px;
+        left: 0;
+
+        font-family: 'BebasNeueBold';
+        font-size: 115px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: transparent;
+
+
+        text-transform: uppercase;
+        transform: scale(1, 1.5);
+    }
+
+    &__title-first-word{
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #8E8E8E;
+        
+    }
+
+    &__title-second-word{
+        color: $white;
+        text-transform: uppercase;
+        text-shadow: 6px 4px 0px $border-color;
+
+    }
+
+    &__subtitle {
+        position: absolute;
+        bottom: 220px;
+        left: 280px;
+
+        width: 205px;
+        height: auto;
+
+        font-family: SFProDisplay-Medium;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        color: $white;
+        
+        
+    &::before {
+        position: absolute;
+        top: 10px;
+        left: -280px;
+        content: "";
+        display: block;
+        width: 253px;
+        height: 1px;
+        background-color: rgba(79, 79, 79, 1);
+        }  
+    }
+
+    &__img-wrap {
+        margin-left: auto;
+        margin-bottom: 220px;
+    }
+}
