@@ -1,0 +1,32 @@
+.about-project {
+
+    &__header {
+        display: flex;
+    }
+
+    .title-second-word {
+        margin-right: auto;
+    }
+
+    .back-btn {
+        margin-right: 31px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .further-btn {
+        margin-right: 31px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .counter {
+        margin-top: 72px;
+    }
+
+    &__main {
+        display: flex;
+        width: 70%;
+        margin-left: auto;
+    }
+}

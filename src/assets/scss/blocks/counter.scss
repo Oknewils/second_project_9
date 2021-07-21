@@ -1,0 +1,45 @@
+.counter {
+    position: relative;
+    margin-bottom: 50px;
+
+    &__first-number {
+
+        font-family: BebasNeueBold;
+        font-size: 144px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 144px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        color: $gray-3;
+
+        &::before {
+            position: absolute;
+            top: 120px;
+            left: 0;
+            transform: rotate(-45deg);
+
+            content: "";
+            display: block;
+            width: 189.5px;
+            height: 1px;
+            background-color: $gray-3;
+            }  
+    }
+
+    &__second-number {
+        position: absolute;
+        top: 135px;
+        left: 95px;
+        font-family: BebasNeueBold;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        color: $gray-3;
+    }
+}

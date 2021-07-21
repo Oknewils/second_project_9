@@ -1,0 +1,31 @@
+.title-first-word{
+
+    font-size: 115px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: transparent;
+    font-family: 'BebasNeueBold';
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #8E8E8E;
+    
+}
+
+.title-second-word{
+    font-family: BebasNeueBold;
+    font-size: 115px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 190px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    color: $white;
+    text-transform: uppercase;
+    text-shadow: 6px 4px 0px $border-color;
+
+}

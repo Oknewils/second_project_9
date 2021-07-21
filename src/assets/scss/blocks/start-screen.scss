@@ -26,19 +26,6 @@
         transform: scale(1, 1.5);
     }
 
-    &__title-first-word{
-        -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: #8E8E8E;
-        
-    }
-
-    &__title-second-word{
-        color: $white;
-        text-transform: uppercase;
-        text-shadow: 6px 4px 0px $border-color;
-
-    }
-
     &__subtitle {
         position: absolute;
         bottom: 220px;
