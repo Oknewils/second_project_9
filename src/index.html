@@ -23,19 +23,21 @@ title: FRO
         alt="main-photo"
       />
     </div>
-    
     </section>
 
     <section class="about">
-      <h3 class="about__caption caption">Обо мне</h3>
+      <div class="about__left">
+      <h3 class="caption">Обо мне</h3>
       <img
-        class="about__photo-about"
+        class="about__avatar"
         width="288"
         height="332"
-        src="assets/images/about-photo-small.jpg"
-        alt="about-photo-small"
+        src="assets/images/about-photo-avatar.png"
+        alt="about-photo-avatar"
       />
-      <p class="about__subtitle subtitle">
+    </div>
+    <div class="about__right">
+      <p class="subtitle">
         По их почти единодушному мнению, самоактуализация откровенна. Толпа
         понимает объект. Действие точно аннигилирует генезис. Самонаблюдение,
         конечно, притягивает филосовский гомеостаз. По их почти единодушному
@@ -44,21 +46,25 @@ title: FRO
         филосовский гомеостаз.
       </p>
       <img
-        class="about__photo-about"
+        class="about__preview"
         width="615"
         height="396"
-        src="assets/images/about-photo-big.jpg"
-        alt="about-photo-big"
+        src="assets/images/about-photo-preview.jpg"
+        alt="about-photo-preview"
       />
-      <button class="about__watch btn">Смотреть</button>
+      <button class="btn-view">Смотреть</button>
+    </div>
     </section>
     <section class="specializations">
-      <h3 class="specializations__caption caption">Основные специализации</h3>
-      <ol class="specializations__number-list number-list">
+      <h3 class="caption">Основные специализации</h3>
+      <ol class="number-list">
         <li class="number-list__item">
-          <a class="number-list__link link" href="#">Увеличение продаж</a>
-          <button class="number-list__btn-number"></button>
-          <p class="number-list__subtitle subtitle">
+          <a class="link link-active" href="#"><span class="number-list__link-number">01</span>Увеличение продаж</a>
+          <button class="number-list__btn-number"><svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.99995 2.9257L1.46245 7.4632L0.166286 6.16703L5.99995 0.333362L11.8336 6.16703L10.5375 7.4632L5.99995 2.9257Z" fill="#83C1FA"/>
+            </svg>
+            </button>
+          <p class="subtitle">
             По их почти единодушному мнению, самоактуализация откровенна. Толпа
             понимает объект. Действие точно аннигилирует генезис.
             Самонаблюдение, конечно, притягивает филосовский гомеостаз. По их
@@ -68,29 +74,45 @@ title: FRO
           </p>
         </li>
         <li class="number-list__item">
-          <a class="number-list__link link link" href="#"
-            >Повышение узнаваемости</a
+          <a class="link" href="#"
+            ><span class="number-list__link-number">02</span>Повышение узнаваемости</a
           >
-          <button class="number-list__btn-number"></button>
-        </li>
-        <li class="number-list__list__item">
-          <a class="number-list__link link" href="#">Расширение компании</a>
-          <button class="number-list__btn-number"></button>
-        </li>
-        <li class="number-list__item">
-          <a class="number-list__link link" href="#">Что-то еще</a>
-          <button class="number-list__btn-number"></button>
+          <button class="number-list__btn-number"><svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.00005 4.5375L10.5375 0L11.8337 1.29617L6.00005 7.12983L0.166382 1.29617L1.46255 0L6.00005 4.5375Z" fill="white"/>
+            </svg>
+            </button>
         </li>
         <li class="number-list__item">
-          <a class="number-list__link link" href="#">И еще что-то</a>
-          <button class="number-list__btn-number"></button>
+          <a class="link" href="#"><span class="number-list__link-number">03</span>Расширение компании</a>
+          <button class="number-list__btn-number"><svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.00005 4.5375L10.5375 0L11.8337 1.29617L6.00005 7.12983L0.166382 1.29617L1.46255 0L6.00005 4.5375Z" fill="white"/>
+            </svg>
+            </button>
         </li>
         <li class="number-list__item">
-          <a class="number-list__link link" href="#">И еще одно что-нибудь</a>
-          <button class="number-list__btn-number"></button>
+          <a class="link" href="#"><span class="number-list__link-number">04</span>Что-то еще</a>
+          <button class="number-list__btn-number"><svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.00005 4.5375L10.5375 0L11.8337 1.29617L6.00005 7.12983L0.166382 1.29617L1.46255 0L6.00005 4.5375Z" fill="white"/>
+            </svg>
+            </button>
+        </li>
+        <li class="number-list__item">
+          <a class="link" href="#"><span class="number-list__link-number">05</span>И еще что-то</a>
+          <button class="number-list__btn-number"><svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.00005 4.5375L10.5375 0L11.8337 1.29617L6.00005 7.12983L0.166382 1.29617L1.46255 0L6.00005 4.5375Z" fill="white"/>
+            </svg>
+            </button>
+        </li>
+        <li class="number-list__item">
+          <a class="link" href="#"><span class="number-list__link-number">06</span>И еще одно что-нибудь</a>
+          <button class="number-list__btn-number"><svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.00005 4.5375L10.5375 0L11.8337 1.29617L6.00005 7.12983L0.166382 1.29617L1.46255 0L6.00005 4.5375Z" fill="white"/>
+            </svg>
+            </button>
         </li>
       </ol>
     </section>
+    
     <section class="about-project">
       <h2 class="about-project__title title">Webnauts</h2>
       <h3 class="about-project__caption caption">О проекте</h3>
@@ -125,6 +147,7 @@ title: FRO
         alt="about-project-img"
       />
     </section>
+    
     <section class="reviews">
       <h3 class="reviews__caption caption">Отзывы клиентов</h3>
       <button class="reviews__watch-btn btn">Смотреть отзыв</button>

@@ -1,0 +1,42 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    
+    width: auto;
+    border-bottom: 1px solid $line-color;
+    margin-bottom: 50px;
+
+
+    .about__left {
+        width: 50%;
+    }
+
+    .about__right {
+        position: relative;
+        width: 50%;
+    } 
+
+    .caption {
+        margin-bottom: 170.13px;
+    }
+
+    .subtitle {
+        margin-bottom: 56px;
+    }
+
+    .about__preview {
+        cursor: pointer;
+        margin-bottom: 220px;
+    }
+
+    .btn-view {
+        position: absolute;
+        top: 241px;
+        right: 56px;
+
+        &:hover {
+            transform: scale(1.1);
+            transition-duration: 2s;
+        }
+    } 
+}
