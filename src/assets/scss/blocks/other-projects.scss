@@ -1,0 +1,50 @@
+.other-projects {
+    display: flex;
+
+    width: auto;
+    border-bottom: 1px solid $line-color;
+    margin-bottom: 50px;
+
+    .caption {
+        width: 50%;
+    }
+
+    &__right-section {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+
+        .decor-number {
+            display: inline-block;
+            font-family: Bebas Neue;
+            font-size: 96px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 96px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            color: $gray-2;
+            margin-left: auto;
+        }
+
+        .subtitle {
+            margin-bottom: 40px;
+        }
+
+        .back-btn{
+            margin-top: 27px;
+            margin-right: 31px;
+            margin-bottom: 220px;
+        }
+
+        .further-btn{
+            margin-top: 27px;
+        }
+    }
+}
+.other-project__logo {
+    padding: 39px 41px 38px 41px;
+    border: 1px solid #7A7A7A;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,34 @@
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: auto;
+    border-bottom: 1px solid $line-color;
+    margin-bottom: 50px;
+
+    .caption {
+        width: 100%;
+        margin-bottom: 83px;
+    }
+
+     .first-section {
+        position: relative;
+
+        .btn-view {
+            position: absolute;
+            top: 131px;
+            left: 68px;
+
+            &:hover {
+                transform: scale(1.1);
+                transition-duration: 2s;
+            }
+        }
+
+        &__first-svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+     }
+}
