@@ -488,6 +488,58 @@ body {
     text-transform: uppercase;
 }
 
+.btn-view {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FFFFFF;
+    border: 1px solid #83C1FA;
+    font-family: BebasNeueRegular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.back-btn {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-family: BebasNeueRegular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.further-btn {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-family: BebasNeueRegular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
 .start-screen {
     position: relative;
     display: -ms-flexbox;
@@ -514,17 +566,6 @@ body {
     text-transform: uppercase;
     -webkit-transform: scale(1, 1.5);
     transform: scale(1, 1.5);
-}
-
-.start-screen__title-first-word {
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #8E8E8E;
-}
-
-.start-screen__title-second-word {
-    color: #FFFFFF;
-    text-transform: uppercase;
-    text-shadow: 6px 4px 0px #83C1FA;
 }
 
 .start-screen__subtitle {
@@ -627,24 +668,6 @@ body {
     width: auto;
 }
 
-.btn-view {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    border: none;
-    background-color: #FFFFFF;
-    border: 1px solid #83C1FA;
-    font-family: BebasNeueRegular;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: center;
-    text-transform: uppercase;
-    color: #333333;
-}
-
 .specializations {
     display: -ms-flexbox;
     display: flex;
@@ -721,4 +744,105 @@ body {
     border: none;
     background-color: #3B3B3B;
     margin-left: auto;
+}
+
+.about-project__header {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.about-project .title-second-word {
+    margin-right: auto;
+}
+
+.about-project .back-btn {
+    margin-right: 31px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about-project .further-btn {
+    margin-right: 31px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about-project .counter {
+    margin-top: 72px;
+}
+
+.about-project__main {
+    display: -ms-flexbox;
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+}
+
+.title-first-word {
+    font-size: 115px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: transparent;
+    font-family: 'BebasNeueBold';
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #8E8E8E;
+}
+
+.title-second-word {
+    font-family: BebasNeueBold;
+    font-size: 115px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 190px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: 6px 4px 0px #83C1FA;
+}
+
+.counter {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.counter__first-number {
+    font-family: BebasNeueBold;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 144px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+}
+
+.counter__first-number::before {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    content: "";
+    display: block;
+    width: 189.5px;
+    height: 1px;
+    background-color: #828282;
+}
+
+.counter__second-number {
+    position: absolute;
+    top: 135px;
+    left: 95px;
+    font-family: BebasNeueBold;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
 }
