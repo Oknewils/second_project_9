@@ -329,14 +329,14 @@
           <div class="first-section">
             <button class="btn-view">Смотреть отзыв</button>
             <img
-              class="first-section__first-img"
+              class="first-section__img"
               width="615"
               height="346"
               src="assets/images/reviews-video-big.png"
               alt="#"
             />
             <svg
-              class="first-section__first-svg"
+              class="first-section__svg"
               width="27"
               height="32"
               viewBox="0 0 27 32"
@@ -348,19 +348,20 @@
                 fill="#83C1FA"
               />
             </svg>
-            <h4 class="first-section__subtitle-video">Уилл Смит</h4>
-            <p class="first-section__text text">Актер, певец, классный мужик</p>
+            <h4 class="subtitle-video">Уилл Смит</h4>
+            <p class="text-video">Актер, певец, классный мужик</p>
           </div>
     
           <div class="second-section">
             <img
-              class="reviews__second-img"
+              class="second-section__img"
               width="292"
               height="227"
               src="assets/images/reviews-video-middle.png"
               alt="#"
             />
             <svg
+              class="second-section__svg"
               width="27"
               height="32"
               viewBox="0 0 27 32"
@@ -372,19 +373,20 @@
                 fill="#83C1FA"
               />
             </svg>
-            <h4 class="reviews__subtitle-video">Марк Аврелий</h4>
-            <p class="reviews__text text">Римский император, философ</p>
+            <h4 class="subtitle-video">Марк Аврелий</h4>
+            <p class="text-video">Римский император, философ</p>
           </div>
     
           <div class="third-section">
             <img
-              class="reviews__third-img"
+              class="third-section__img"
               width="232"
               height="181"
               src="assets/images/reviews-video-small.png"
               alt="#"
             />
             <svg
+              class="third-section__svg"
               width="27"
               height="32"
               viewBox="0 0 27 32"
@@ -396,8 +398,8 @@
                 fill="#83C1FA"
               />
             </svg>
-            <h4 class="reviews__subtitle-video">Дядя Ваня</h4>
-            <p class="reviews__text text">Обувщик</p>
+            <h4 class="subtitle-video">Дядя Ваня</h4>
+            <p class="text-video">Обувщик</p>
           </div>
         </section>
       </div>
@@ -407,12 +409,15 @@
     <footer class="footer">
       <div class="container">
         <div class="right-me">
-          <h3 class="right-me__caption caption">Напишите мне</h3>
-          <p class="right-me__subtitle subtitle"></p>
+          <h3 class="caption">Напишите мне</h3>
+          <p class="subtitle">Проконсультирую по любым вопросам,
+            связанным с масштабированием бизнеса</p>
         </div>
-        <div class="social-networks">
-          <div class="social-networks__mail">
-            <svg
+        
+          <ul class="social-networks">
+            <li class="social-networks__email">
+              <svg
+              class="social-networks__svg"
               width="86"
               height="86"
               viewBox="0 0 86 86"
@@ -431,8 +436,104 @@
                 </clipPath>
               </defs>
             </svg>
-            <p class="social-networks__mail-title title">E-mail</p>
+              <a class="social-networks__link social-networks__link--active" href="#"> E-mail </a>
+              <svg
+              width="29"
+              height="29"
+              viewBox="0 0 29 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21.9749 12.7084L12.3644 3.09787L14.8978 0.564453L28.8334 14.5L14.8978 28.4356L12.3644 25.9022L21.9749 16.2917H0.166748V12.7084H21.9749Z"
+                fill="#83C1FA"
+              />
+            </svg>
+            </li>
+            <li class="social-networks__facebook">
+              <svg
+              class="social-networks__svg"
+              width="86"
+              height="86"
+              viewBox="0 0 86 86"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M50.1666 48.3751H59.1249L62.7083 34.0418H50.1666V26.8751C50.1666 23.1843 50.1666 19.7084 57.3333 19.7084H62.7083V7.66842C61.5401 7.51433 57.129 7.16675 52.4707 7.16675C42.7419 7.16675 35.8333 13.1043 35.8333 24.0084V34.0418H25.0833V48.3751H35.8333V78.8334H50.1666V48.3751Z"
+                fill="#3C3C3C"
+              />
+            </svg>
+              <a class="social-networks__link" href="#">
+                Facebook
+              </a>
+              <svg
+              width="29"
+              height="29"
+              viewBox="0 0 29 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21.9749 12.7084L12.3644 3.09787L14.8978 0.564453L28.8334 14.5L14.8978 28.4356L12.3644 25.9022L21.9749 16.2917H0.166748V12.7084H21.9749Z"
+                fill="#4F4F4F"
+              />
+            </svg>
+            </li>
+            <li class="social-networks__telegram">
+              <svg
+              class="social-networks__svg"
+              width="86"
+              height="86"
+              viewBox="0 0 86 86"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25.4429 48.3452L8.63774 43.1215C5.00492 42.0151 4.98473 39.5206 9.45177 37.7301L74.9301 12.5168C78.7311 10.9745 80.8839 12.9258 79.6528 17.8143L68.5054 70.2527C67.725 73.9877 65.4713 74.8796 62.3431 73.1562L45.1813 60.4959L37.1824 68.194C36.3616 68.9853 35.6956 69.6626 34.4308 69.8302C33.1728 70.0046 32.1368 69.6291 31.3766 67.5503L25.5237 48.2983L25.4429 48.3519V48.3452Z"
+                fill="#3C3C3C"
+              />
+            </svg>
+              <a class="social-networks__link" href="#" > Telegram </a>
+              <svg
+              width="29"
+              height="29"
+              viewBox="0 0 29 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21.9749 12.7084L12.3644 3.09787L14.8978 0.564453L28.8334 14.5L14.8978 28.4356L12.3644 25.9022L21.9749 16.2917H0.166748V12.7084H21.9749Z"
+                fill="#4F4F4F"
+              />
+            </svg>
+            </li>
+          </ul>
+        <!-- <div class="social-networks">
+          <div class="social-networks__mail">
             <svg
+              class="social-networks__svg"
+              width="86"
+              height="86"
+              viewBox="0 0 86 86"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0)">
+                <path
+                  d="M0.750082 10.75H65.2501C66.2004 10.75 67.1119 11.1275 67.7839 11.7995C68.4559 12.4715 68.8334 13.383 68.8334 14.3333V71.6667C68.8334 72.617 68.4559 73.5285 67.7839 74.2005C67.1119 74.8725 66.2004 75.25 65.2501 75.25H0.750082C-0.200278 75.25 -1.11171 74.8725 -1.78372 74.2005C-2.45572 73.5285 -2.83325 72.617 -2.83325 71.6667V14.3333C-2.83325 13.383 -2.45572 12.4715 -1.78372 11.7995C-1.11171 11.1275 -0.200278 10.75 0.750082 10.75ZM33.2151 41.8641L10.2387 22.3528L5.59833 27.8138L33.2617 51.3026L60.4269 27.7959L55.7399 22.3743L33.2187 41.8641H33.2151Z"
+                  fill="#3C3C3C"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="86" height="86" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="social-networks__title">E-mail</p>
+            <svg
+              class="social-networks__svg"
               width="29"
               height="29"
               viewBox="0 0 29 29"
@@ -447,6 +548,7 @@
           </div>
           <div class="social-networks__facebook">
             <svg
+              class="social-networks__svg"
               width="86"
               height="86"
               viewBox="0 0 86 86"
@@ -458,7 +560,7 @@
                 fill="#3C3C3C"
               />
             </svg>
-            <p class="social-networks__facebook-title title">Facebook</p>
+            <p class="social-networks__title">Facebook</p>
             <svg
               width="29"
               height="29"
@@ -485,7 +587,7 @@
                 fill="#3C3C3C"
               />
             </svg>
-            <p class="social-networks__telegram-title title">Telegram</p>
+            <p class="social-networks__title">Telegram</p>
             <svg
               width="29"
               height="29"
@@ -509,7 +611,7 @@
               </a>
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
     </footer>
 

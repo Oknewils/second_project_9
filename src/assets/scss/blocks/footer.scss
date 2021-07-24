@@ -1,0 +1,72 @@
+.footer {
+
+    .container {
+        display: flex;
+    }
+    
+    .right-me {
+        width: 50%;
+        .caption {
+            margin-bottom: 25px;
+        }
+        .subtitle {
+            color: $gray-3;
+            width: 340px;
+        }
+    }
+
+    .social-networks {
+        
+        width: 50%;
+
+        &__email {
+            position: relative;
+
+            .social-networks__svg {
+                position: absolute;  
+                top: -15px; 
+                left: -60px;
+                z-index: 0;
+            }
+        }
+
+        &__facebook {
+            position: relative;
+
+            .social-networks__svg {
+                position: absolute;  
+                top: -15px; 
+                left: -60px;
+                z-index: 0;
+            }
+        }
+        
+        &__telegram {
+            position: relative;
+
+            .social-networks__svg {
+                position: absolute;  
+                top: -15px; 
+                left: -60px;
+                z-index: 0;
+            }
+        }
+
+        &__link {
+            font-family: BebasNeueBold;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            text-decoration: none;
+            color: $white;
+
+            z-index: 5;
+        }
+
+        
+    }
+}

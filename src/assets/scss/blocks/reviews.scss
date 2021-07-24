@@ -14,6 +14,9 @@
      .first-section {
         position: relative;
 
+        margin-right: 30px;
+        margin-bottom: 220px;
+
         .btn-view {
             position: absolute;
             top: 131px;
@@ -25,10 +28,82 @@
             }
         }
 
-        &__first-svg {
+        &__svg {
             position: absolute;
-            top: 50%;
+            cursor: pointer;
+            top: 40%;
             left: 50%;
         }
+
+        &__img {
+            cursor: pointer;
+            margin-bottom: 16px;
+        }
+    
      }
+
+     .second-section {
+         position: relative;
+         margin-top: auto;
+
+         margin-right: 30px;
+         margin-bottom: 220px;
+
+         &__svg {
+            position: absolute;
+            cursor: pointer;
+            top: 40%;
+            left: 50%;
+         }
+
+         &__img {
+            cursor: pointer;
+            margin-bottom: 16px;
+        }
+     }
+
+     .third-section {
+        position: relative;
+        margin-top: auto;
+
+        margin-right: 30px;
+        margin-bottom: 220px;
+
+        &__svg {
+            position: absolute;
+            cursor: pointer;
+            top: 40%;
+            left: 50%;
+         }
+
+         &__img {
+            cursor: pointer;
+            margin-bottom: 16px;
+        }
+    }
+
+    .subtitle-video{
+        font-family: SFProDisplay-Medium;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+        color: $white;
+        margin-bottom: 4px;
+    }
+
+    .text-video {
+        font-family: SFProDisplay-Medium;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        color: $gray-3;
+    }
 }
