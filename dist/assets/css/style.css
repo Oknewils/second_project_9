@@ -973,6 +973,8 @@ body {
 
 .reviews .first-section {
     position: relative;
+    margin-right: 30px;
+    margin-bottom: 220px;
 }
 
 .reviews .first-section .btn-view {
@@ -987,8 +989,143 @@ body {
     transition-duration: 2s;
 }
 
-.reviews .first-section__first-svg {
+.reviews .first-section__svg {
     position: absolute;
-    top: 50%;
+    cursor: pointer;
+    top: 40%;
     left: 50%;
+}
+
+.reviews .first-section__img {
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.reviews .second-section {
+    position: relative;
+    margin-top: auto;
+    margin-right: 30px;
+    margin-bottom: 220px;
+}
+
+.reviews .second-section__svg {
+    position: absolute;
+    cursor: pointer;
+    top: 40%;
+    left: 50%;
+}
+
+.reviews .second-section__img {
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.reviews .third-section {
+    position: relative;
+    margin-top: auto;
+    margin-right: 30px;
+    margin-bottom: 220px;
+}
+
+.reviews .third-section__svg {
+    position: absolute;
+    cursor: pointer;
+    top: 40%;
+    left: 50%;
+}
+
+.reviews .third-section__img {
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.reviews .subtitle-video {
+    font-family: SFProDisplay-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.reviews .text-video {
+    font-family: SFProDisplay-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+}
+
+.footer .container {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer .right-me {
+    width: 50%;
+}
+
+.footer .right-me .caption {
+    margin-bottom: 25px;
+}
+
+.footer .right-me .subtitle {
+    color: #828282;
+    width: 340px;
+}
+
+.footer .social-networks {
+    width: 50%;
+}
+
+.footer .social-networks__email {
+    position: relative;
+}
+
+.footer .social-networks__email .social-networks__svg {
+    position: absolute;
+    top: -15px;
+    left: -60px;
+    z-index: 0;
+}
+
+.footer .social-networks__facebook {
+    position: relative;
+}
+
+.footer .social-networks__facebook .social-networks__svg {
+    position: absolute;
+    top: -15px;
+    left: -60px;
+    z-index: 0;
+}
+
+.footer .social-networks__telegram {
+    position: relative;
+}
+
+.footer .social-networks__telegram .social-networks__svg {
+    position: absolute;
+    top: -15px;
+    left: -60px;
+    z-index: 0;
+}
+
+.footer .social-networks__link {
+    font-family: BebasNeueBold;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    z-index: 5;
 }
